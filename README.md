@@ -2,6 +2,7 @@
 This is a simple web-based task manager built with Node.js, Express, EJS, and Tailwind CSS. It allows users to create tasks with a title and details, saves them as .txt files on the server, and displays them on the main page.
 
    ** Features**
+   
 Create new tasks through a form
 
 Save task details to .txt files in a local directory (/files)
@@ -11,6 +12,7 @@ Dynamically render all saved tasks on the homepage
 Minimalist UI using Tailwind CSS
 
   ** WHAT I LEARN**
+  
 How to set up an Express server and handle routes (GET and POST)
 
 How to render dynamic content using the EJS templating engine
@@ -25,23 +27,4 @@ Organizing static assets with express.static()
 
 Basic input sanitization (e.g., stripping spaces from file names)
 
-   ** HOW IT WORKS**
-User visits the homepage (/)
-
-Server reads the ./files directory using fs.readdir()
-
-List of task files is passed to the index.ejs template
-
-User submits a task
-
-The form sends a POST request to /create
-
-Title is converted to a filename (title.txt)
-
-Content is saved in a file inside the /files directory
-
-User is redirected back to /
-
-Tasks display
-
-EJS loops through the files array and renders a task card for each
+ 
