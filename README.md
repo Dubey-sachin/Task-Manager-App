@@ -1,4 +1,4 @@
-Task Manager App
+        Task Manager App
 This is a simple web-based task manager built with Node.js, Express, EJS, and Tailwind CSS. It allows users to create tasks with a title and details, saves them as .txt files on the server, and displays them on the main page.
 
     Features
@@ -10,7 +10,7 @@ Dynamically render all saved tasks on the homepage
 
 Minimalist UI using Tailwind CSS
 
-    What I Learned
+   WHAT I LEARN
 How to set up an Express server and handle routes (GET and POST)
 
 How to render dynamic content using the EJS templating engine
@@ -25,7 +25,7 @@ Organizing static assets with express.static()
 
 Basic input sanitization (e.g., stripping spaces from file names)
 
-    How It Works
+    HOW IT WORKS
 User visits the homepage (/)
 
 Server reads the ./files directory using fs.readdir()
